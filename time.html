@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/output.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Timersheet</title>
+</head>
+<body class="font-poppins">
+    <div class=" mt-10 container flex  ">
+        <div class="">
+            <div class="w-w-220 h-h-901  ml-0.5px bg-white  hover:border-blue-800 hover:border-2">
+                <div class="w-w-220 h-h-87 p-0 pr-8 pb-0 pl-8 gap-16 bg-slate-50 ">
+                    <div class=" w-w-131 h-h-34 text-center mt-6 flex">
+                        <h1 class="font-bold text-3xl">P</h1> <span
+                            class="material-symbols-outlined text-3xl font-bold bg-blue-600 rounded-full rotate-180">
+                            expand_circle_down
+                        </span>
+                        <h1 class="font-bold text-3xl">YRUN</h1>
+
+                    </div>
+                    <div class="w-8 h-8 -mt-4 ml-44 rounded-full bg-white">
+                        <span class="material-symbols-outlined">
+                            arrow_back_ios_new
+                        </span>
+                    </div>
+                </div>
+                <div class="w-w-220 h-h-104 gap-2 p-2.5">
+
+                    <div
+                        class="w-w-219 h-11 p-2.5 pr-8 pb-2.5 pl-8 gap-2.5 font-medium text-sm text-slate-600 hover:text-blue-600 flex justify-between">
+
+                        <span class="material-symbols-outlined f">
+                            desktop_windows
+                        </span>
+                        <a href="index.html">
+                            <h1>Dashboard</h1>
+                        </a>
+
+
+
+                    </div>
+                    <div
+                        class="w-w-219 h-11 p-2.5 pr-8 pb-2.5 pl-8 gap-2.5 font-medium text-sm text-blue-600 flex justify-between">
+                        <span class="material-symbols-outlined">
+                            schedule
+                        </span>
+                        <h1>Timesheet</h1>
+                    </div>
+                </div>
+
+                <div class="w-w-220 h-h-86 px-1 gap-2.5 border-t-2 flex justify-between mt-mt-650 bg-slate-50">
+                    <div class="mt-4">
+                        <img class="w-11 h-11 rounded-full border-2 p-1 gap-y-2.5" src="imran1.jpeg" alt="">
+                    </div>
+                    <div class="mt-2">
+                        <h1 class="text-2xl font-bold">Jonus <br> <span class="text-xs">Admin</span></h1>
+                    </div>
+                    <h1 class="mt-4"><span class="material-symbols-outlined">
+                            arrow_forward_ios
+                        </span></h1>
+                </div>
+            </div>
+        </div>
+        <!------nav-->
+        <div>
+            <div class="w-w-1221 h-h-h-145 ml-10 gap-5 px-5 py-7 hover:border-2 hover:border-blue-500 bg-bg-2">
+                <div class="w-w-1156 h-12 flex justify-between">
+                    <div class="w-28 h-7 ">
+                        <h1 class="text-black font-bold text-2xl ml-4">Timesheet</h1>
+                    </div>
+                    <div><button class=" bg-white rounded-xl font-bold py-2 w-72 flex justify-between ">
+                            <h1>Search</h1><span class="material-symbols-outlined mr-2">
+                                search
+                            </span>
+                        </button>
+                    </div>
+
+                </div>
+                <div class="flex justify-between  rounded-2xl">
+                    <div class="w-w-260 h-h-47 flex justify-between">
+                        <button class="bg-blue-600 text-white w-w-139 h-h-34 rounded-xl"> + entry</button>
+                        <button class="border-y-slate-200 border-2 text-black w-w-139 h-h-34 ml-2 rounded-xl">actions
+                            <span class="material-symbols-outlined ml-3">
+                                keyboard_arrow_down
+                            </span></button>
+                    </div>
+                    <div>
+                        <button class="w-40 h-h-34 flex justify-between border-2 rounded-2xl mr-5">
+                            <div><span class="material-symbols-outlined mt-1">
+                                    chevron_left
+                                </span></div>
+                            <div class="flex justify-between"><span class="material-symbols-outlined mt-1">
+                                    calendar_month
+                                </span>
+                                <h1 class="mt-1">Today</h1>
+                            </div>
+                            <div><span class="material-symbols-outlined mt-1">
+                                    chevron_right
+                                </span></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--main body-->
+            <div id="Timesheet"
+                class="w-w-1221 h-h-772  ml-10 p-1 pt-1 pr-1 pb-1 pl-1 bg-white hover:border-blue-900 hover:border-2 gap-x-5">
+                <div class="w-w-1221 h-16  bg-slate-100 ">
+                    <button class="w-w-255 h-5 mt-3 ">Name</button>
+                    <button class="w-44 h-5 mt-3">Date</button>
+                    <button class="w-w-255 h-5 mt-3 ">scheduled</button>
+                    <button class="w-20 h-5 mt-3">Loged</button>
+                    <button class="w-28 h-5 mt-3">Balence</button>
+                    <button class="w-40 h-5 mt-3">Status</button>
+                    <button class="w-32 h-5 mt-3">Details</button>
+                </div>
+                <div class="w-w-1221 h-16  bg-white ">
+                    <button class="w-w-255 h-5 ">
+                        <div class=" flex justify-between mt-3">
+                            <div><img class="w-11 h-11 rounded-full ml-3" src="imran1.jpeg" alt=""></div>
+                            <div class="w-w-200 h-h-34">
+                                <h1 class="font-bold ">Agens Neilson</h1>
+                                <p>Laravel developer</p>
+                            </div>
+                        </div>
+                    </button>
+                    <button class="w-44 h-5 text-center">
+                        <div class="text-center">
+                            <h1 class="font-semibold">Today</h1><span class="mb-2 ">10:15am-08:15pm</span>
+                        </div>
+                    </button>
+                    <button class="w-w-255 h-5 mt-3 ">9h</button>
+                    <button class="w-20 h-5 mt-3">08h12m</button>
+                    <button class="w-28 h-5 mt-3">-48m</button>
+                    <button class="w-10 h-5 mt-3"><button class="w-11 h-7 bg-bg-3 rounded-2xl">04</button> <button
+                            class="w-11 h-7 bg-bg-44 rounded-full">2</button> <button
+                            class="w-11 h-7 bg-bg-4 rounded-full">1</button>
+                        <button class="w-32 h-5 mt-3 "><a href="all.html">
+                                <div class="flex">
+                                    <div><span class="material-symbols-outlined">
+                                            sort
+                                        </span></div>
+                                    <div>All entries</div>
+                                </div>
+                            </a></button>
+                </div>
+                <div class="w-w-1221 h-16 bg-slate-100 mt-3 ">
+                    <button class="w-w-255 h-5 ">
+                        <div class=" flex justify-between mt-3">
+                            <div><img class="w-11 h-11 rounded-full ml-3" src="1.jpeg" alt=""></div>
+                            <div class="w-w-200 h-h-34">
+                                <h1 class="font-bold ">Naoh</h1>
+                                <p>Laravel developer</p>
+                            </div>
+                        </div>
+                    </button>
+                    <button class="w-44 h-5 text-center">
+                        <div class="text-center">
+                            <h1 class="font-semibold">Today</h1><span class="mb-2 ">10:15am-08:15pm</span>
+                        </div>
+                    </button>
+                    <button class="w-w-255 h-5 mt-3 ">9h</button>
+                    <button class="w-20 h-5 mt-3">00h12m</button>
+                    <button class="w-28 h-5 mt-3">00m </button>
+                    <button class="w-10 h-5 mt-3"><button class="w-11 h-7 bg-bg-3 rounded-2xl">01</button></button>
+                    <button class="w-32 h-5 mt-3 ml-20 "><a href="all.html">
+                            <div class="flex ml-4">
+                                <div><span class="material-symbols-outlined">
+                                        sort
+                                    </span></div>
+                                <div>All entries</div>
+                            </div>
+                        </a></button>
+                </div>
+                <div class="w-w-1221 h-16  bg-white mt-3 ">
+                    <button class="w-w-255 h-5 ">
+                        <div class=" flex justify-between mt-3">
+                            <div><img class="w-11 h-11 rounded-full ml-3" src="2.jpeg" alt=""></div>
+                            <div class="w-w-200 h-h-34">
+                                <h1 class="font-bold ">Imran</h1>
+                                <p>Laravel developer</p>
+                            </div>
+                        </div>
+                    </button>
+                    <button class="w-44 h-5 text-center">
+                        <div class="text-center">
+                            <h1 class="font-semibold">Today</h1><span class="mb-2 ">10:15am-08:15pm</span>
+                        </div>
+                    </button>
+                    <button class="w-w-255 h-5 mt-3 ">9h</button>
+                    <button class="w-20 h-5 mt-3">05h12m</button>
+                    <button class="w-28 h-5 mt-3">-30m</button>
+                    <button class="w-10 h-5 mt-3"> <button
+                            class="w-11 h-7 bg-bg-44 rounded-full">2</button></button>
+                    <button class="w-32 h-5 mt-3 "><a href="all.html">
+                            <div class="flex ml-24">
+                                <div><span class="material-symbols-outlined">
+                                        sort
+                                    </span></div>
+                                <div>All entries</div>
+                            </div>
+                        </a></button>
+                </div>
+                <div class="w-w-1221 h-16 bg-slate-100 mt-3 ">
+                    <button class="w-w-255 h-5 ">
+                        <div class=" flex justify-between mt-3">
+                            <div><img class="w-11 h-11 rounded-full ml-3" src="3.jpeg" alt=""></div>
+                            <div class="w-w-200 h-h-34">
+                                <h1 class="font-bold ">Nure</h1>
+                                <p>Laravel developer</p>
+                            </div>
+                        </div>
+                    </button>
+                    <button class="w-44 h-5 text-center">
+                        <div class="text-center">
+                            <h1 class="font-semibold">Today</h1><span class="mb-2 ">10:15am-08:15pm</span>
+                        </div>
+                    </button>
+                    <button class="w-w-255 h-5 mt-3 ">9h</button>
+                    <button class="w-20 h-5 mt-3">09h12m</button>
+                    <button class="w-28 h-5 mt-3">-25m</button>
+                    <button class="w-10 h-5 mt-3"> <button class="w-11 h-7 bg-bg-4 rounded-full">1</button></button>
+                    <button class="w-32 h-5 mt-3 "><a href="all.html">
+                            <div class="flex">
+                                <div><span class="material-symbols-outlined ml-24">
+                                        sort
+                                    </span></div>
+                                <div>All entries</div>
+                            </div>
+                        </a></button>
+                </div>
+                <div class="w-w-1221 h-16  bg-white mt-3 ">
+                    <button class="w-w-255 h-5 ">
+                        <div class=" flex justify-between mt-3">
+                            <div><img class="w-11 h-11 rounded-full ml-3" src="imran1.jpeg" alt=""></div>
+                            <div class="w-w-200 h-h-34">
+                                <h1 class="font-bold ">Shordha</h1>
+                                <p>Laravel developer</p>
+                            </div>
+                        </div>
+                    </button>
+                    <button class="w-44 h-5 text-center">
+                        <div class="text-center">
+                            <h1 class="font-semibold">Today</h1><span class="mb-2 ">10:15am-08:15pm</span>
+                        </div>
+                    </button>
+                    <button class="w-w-255 h-5 mt-3 ">9h</button>
+                    <button class="w-20 h-5 mt-3">07h12m</button>
+                    <button class="w-28 h-5 mt-3">50m</button>
+                    <button class="w-10 h-5 mt-3"></button>
+                    <button class="w-32 h-5 mt-3 "><a href="all.html">
+                            <div class="flex">
+                                <div><span class="material-symbols-outlined ml-36">
+                                        sort
+                                    </span></div>
+                                <div>All entries</div>
+                            </div>
+                        </a></button>
+                </div>
+                <div class="w-w-1221 h-16 bg-slate-200 mt-3">
+                    <button class="w-w-255 h-5 ">
+                        <div class=" flex justify-between mt-3">
+                            <div><img class="w-11 h-11 rounded-full ml-3" src="1.jpeg" alt=""></div>
+                            <div class="w-w-200 h-h-34">
+                                <h1 class="font-bold ">Nura</h1>
+                                <p>ux/ui digner</p>
+                            </div>
+                        </div>
+                    </button>
+                    <button class="w-44 h-5 text-center">
+                        <div class="text-center">
+                            <h1 class="font-semibold">Today</h1><span class="mb-2 ">10:15am-08:15pm</span>
+                        </div>
+                    </button>
+                    <button class="w-w-255 h-5 mt-3 ">9h</button>
+                    <button class="w-20 h-5 mt-3">04h12m</button>
+                    <button class="w-28 h-5 mt-3">-48m</button>
+                    <button class="w-10 h-5 mt-3"><button class="w-11 h-7 bg-bg-3 rounded-2xl">04</button> <button
+                            class="w-11 h-7 bg-bg-4 rounded-full">1</button></button>
+                    <button class="w-32 h-5 mt-3 "><a href="all.html">
+                            <div class="flex">
+                                <div><span class="material-symbols-outlined ml-14">
+                                        sort
+                                    </span></div>
+                                <div>All entries</div>
+                            </div>
+                        </a></button>
+                </div>
+                <div class="w-w-1221 h-16  bg-white mt-3 ">
+                    <button class="w-w-255 h-5 ">
+                        <div class=" flex justify-between mt-3">
+                            <div><img class="w-11 h-11 rounded-full ml-3" src="2.jpeg" alt=""></div>
+                            <div class="w-w-200 h-h-34">
+                                <h1 class="font-bold ">Dipika</h1>
+                                <p>Laravel developer</p>
+                            </div>
+                        </div>
+                    </button>
+                    <button class="w-44 h-5 text-center">
+                        <div class="text-center">
+                            <h1 class="font-semibold">Today</h1><span class="mb-2 ">10:15am-08:15pm</span>
+                        </div>
+                    </button>
+                    <button class="w-w-255 h-5 mt-3 ">9h</button>
+                    <button class="w-20 h-5 mt-3">08h12m</button>
+                    <button class="w-28 h-5 mt-3">00m</button>
+                    <button class="w-10 h-5 mt-3"><button class="w-11 h-7 bg-bg-3 rounded-2xl">04</button> <button
+                            class="w-11 h-7 bg-bg-44 rounded-full">2</button> <button
+                            class="w-11 h-7 bg-bg-4 rounded-full">1</button></button>
+                    <button class="w-32 h-5 mt-3 "><a href="all.html">
+                            <div class="flex">
+                                <div><span class="material-symbols-outlined">
+                                        sort
+                                    </span></div>
+                                <div>All entries</div>
+                            </div>
+                        </a></button>
+                </div>
+                <div class="w-w-1221 h-16  bg-slate-100 mt-2">
+                    <button class="w-w-255 h-5 ">
+                        <div class=" flex justify-between mt-3">
+                            <div><img class="w-11 h-11 rounded-full ml-3" src="3.jpeg" alt=""></div>
+                            <div class="w-w-200 h-h-34">
+                                <h1 class="font-bold "> Nilasha</h1>
+                                <p>Laravel developer</p>
+                            </div>
+                        </div>
+                    </button>
+                    <button class="w-44 h-5 text-center">
+                        <div class="text-center">
+                            <h1 class="font-semibold">Today</h1><span class="mb-2 ">10:15am-08:15pm</span>
+                        </div>
+                    </button>
+                    <button class="w-w-255 h-5 mt-3 ">9h</button>
+                    <button class="w-20 h-5 mt-3">08h12m</button>
+                    <button class="w-28 h-5 mt-3">-48m</button>
+                    <button class="w-10 h-5 mt-3"><button class="w-11 h-7 bg-bg-3 rounded-2xl">04</button> </button>
+                    <button class="w-32 h-5 mt-3 "><a href="all.html">
+                            <div class="flex">
+                                <div><span class="material-symbols-outlined ml-24">
+                                        sort
+                                    </span></div>
+                                <div>All entries</div>
+                            </div>
+                        </a></button>
+                </div>
+                <div class="w-w-1221 h-16  bg-white mt-3 ">
+                    <button class="w-w-255 h-5 ">
+                        <div class=" flex justify-between mt-3">
+                            <div><img class="w-11 h-11 rounded-full ml-3" src="imran1.jpeg" alt=""></div>
+                            <div class="w-w-200 h-h-34">
+                                <h1 class="font-bold ">Katrina</h1>
+                                <p>Laravel developer</p>
+                            </div>
+                        </div>
+                    </button>
+                    <button class="w-44 h-5 text-center">
+                        <div class="text-center">
+                            <h1 class="font-semibold">Today</h1><span class="mb-2 ">10:15am-08:15pm</span>
+                        </div>
+                    </button>
+                    <button class="w-w-255 h-5 mt-3 ">9h</button>
+                    <button class="w-20 h-5 mt-3">08h12m</button>
+                    <button class="w-28 h-5 mt-3">-25m</button>
+                    <button class="w-10 h-5 mt-3"><button class="w-11 h-7 bg-bg-3 rounded-2xl">04</button> <button
+                            class="w-11 h-7 bg-bg-44 rounded-full">2</button></button>
+                    <button class="w-32 h-5 mt-3 "><a href="all.html">
+                            <div class="flex">
+                                <div><span class="material-symbols-outlined ml-10">
+                                        sort
+                                    </span></div>
+                                <div>All entries</div>
+                            </div>
+                        </a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
